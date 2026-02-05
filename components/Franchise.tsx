@@ -4,7 +4,7 @@ import { ArrowRight, TrendingUp, Users, CheckCircle } from 'lucide-react';
 
 const Franchise: React.FC = () => {
     return (
-        <section className="relative px-0 pt-12 pb-24 md:pt-16 md:pb-32 bg-white overflow-hidden selection:bg-risa-red selection:text-white">
+        <section className="relative px-0 pt-32 pb-40 md:pt-16 md:pb-32 bg-white overflow-hidden selection:bg-risa-red selection:text-white">
 
             {/* Background Texture similar to Hero */}
             <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-tr from-red-50 to-yellow-50 rounded-full blur-3xl -z-10 opacity-60" />
@@ -22,13 +22,13 @@ const Franchise: React.FC = () => {
                                 <div className="w-full h-full bg-risa-red rounded-sm shadow-[0_0_20px_rgba(225,29,43,0.3)] opacity-0" />
                             </div>
 
-                            <h2 className="relative z-10 text-6xl md:text-8xl font-black italic tracking-tighter leading-[0.9] transform -skew-x-6 uppercase flex flex-col items-center">
+                            <h2 className="relative z-10 text-5xl md:text-8xl font-black italic tracking-tighter leading-[0.9] transform -skew-x-6 uppercase flex flex-col items-center">
                                 <span className="text-risa-black block mb-2 whitespace-nowrap">Grow with</span>
                                 <span className="text-risa-red drop-shadow-md px-2">Family</span>
                             </h2>
                         </div>
 
-                        <p className="text-xl md:text-2xl font-bold text-gray-800 mb-8 max-w-lg leading-tight uppercase tracking-tight transform -skew-x-6">
+                        <p className="text-lg md:text-2xl font-bold text-gray-800 mb-8 max-w-lg leading-tight uppercase tracking-tight transform -skew-x-6">
                             Kein Hype. Kein Bullshit. <br />
                             <span className="text-risa-red">Echtes Business.</span>
                         </p>

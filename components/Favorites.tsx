@@ -63,13 +63,8 @@ const Favorites: React.FC = () => {
     };
 
     return (
-        <section className="relative pt-48 pb-4 bg-white z-20 overflow-hidden">
-            {/* Massive Background Text for Visual Interest */}
-            <div className="absolute top-32 md:top-10 left-0 w-full overflow-hidden pointer-events-none select-none opacity-[0.03]">
-                <h2 className="text-[15vw] font-black uppercase text-center leading-none tracking-tighter text-black whitespace-nowrap">
-                    Risa Favorites
-                </h2>
-            </div>
+        <section className="relative pt-20 md:pt-32 pb-24 md:pb-12 bg-white z-20 overflow-hidden">
+
 
             <div className="container mx-auto px-6 md:px-12 mb-12 flex flex-col md:flex-row items-start md:items-end justify-between gap-8 relative z-10">
                 <motion.div
